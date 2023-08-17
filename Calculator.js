@@ -13,8 +13,12 @@ add(num1=0,num2=0){
    }
    return num1 + num2;
  }
-
-
+	Subtract (num1,num2){
+		return num1 - num2;
+	}
+	multiply (num1,num2){
+		return num1 * num2;
+	}
 }
 
 //required so data is visible externally
